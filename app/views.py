@@ -15,7 +15,7 @@ def analyze():
     result = showcase.RUNME(tweet)
     print(result)
     #send_value = "FAVORS " + result
-    return render_template('index.html', result=result)
+    return render_template('index.html', result=result, tweet=tweet)
 
 # @app.route('/customers')
 # def display_customer():
